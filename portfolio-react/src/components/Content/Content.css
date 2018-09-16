@@ -1,0 +1,13 @@
+.content {
+  margin: 64px 5px 64px 5px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+  grid-template-rows: repeat(1,100%);
+}
+
+.right {
+  background-color: white;
+  padding: 5px
+  
+}
