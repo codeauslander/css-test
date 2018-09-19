@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import './Footer.css';
 
 const Toolbar = styled.header`
   position: fixed;
@@ -63,12 +64,12 @@ const Footer = (props) => {
   return (
     <Toolbar>
       <Navigation>
-        <Logo><a href='/'>Footer</a></Logo>
+        <Logo><a href='/'>Contact me at.</a></Logo>
         <Spacer />
         <List>
-          <ul>
-            <li href='/'><a>Contact</a></li>
-            <li href='/'><a>Careers (LOL)</a></li>
+          <ul className='contact_information'>
+            <li>cesar.gusto.catano@gmail.com</li>
+            <li>847 - 463 0084</li>
           </ul>
         </List>
       </Navigation>

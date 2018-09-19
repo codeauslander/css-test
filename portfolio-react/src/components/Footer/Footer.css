@@ -1,0 +1,8 @@
+.contact_information a{
+  text-decoration-line: none;
+  color: white;
+}
+
+.contact_information a:hover {
+  color: black;
+}

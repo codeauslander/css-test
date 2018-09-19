@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import DrawerToggleButton from '../DrawerToggleButton/DrawerToggleButton';
-import { Link } from 'react-router-dom';
 import Icon from '../Icon/Icon';  
+import './Navbar.css';
 
 const Toolbar = styled.header`
   
@@ -86,18 +86,7 @@ const Navbar = (props) => {
         <List>
           <ul>
             <li>
-              <Link style={LinkStyle} to='/carrusel'>
-                Carrusel
-              </Link>
-              <Link style={LinkStyle} to='/users'>
-                Users
-              </Link>
-              <Link style={LinkStyle} to='/login'>
-                Login
-              </Link>
-              <Link style={LinkStyle} to='/signup'>
-                Signup
-              </Link>
+              <a rel="noopener noreferrer" target="_blank" href='https://github.com/codeauslander'>Github: @codeauslander</a>
             </li>
           </ul>
         </List>

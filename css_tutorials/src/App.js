@@ -8,14 +8,17 @@ import React, { Component } from 'react';
 // import Grid from './components/Grid_Justify_Align_Items/Grid';
 // import Grid from './components/Grid_Auto_Fit_VS_Auto_Fill/Grid';
 // import Grid from './components/Grid_Article_Layout/Grid';
-import Grid from './components/Grid_Flexbox/Grid';
+// import Grid from './components/Grid_Flexbox/Grid';
+
+import Flexbox from './components/Flexbox/Flexbox';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Grid />
+        {/* <Grid /> */}
+        <Flexbox />
       </div>
     );
   }
