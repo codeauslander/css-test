@@ -10,7 +10,10 @@ import React, { Component } from 'react';
 // import Grid from './components/Grid_Article_Layout/Grid';
 // import Grid from './components/Grid_Flexbox/Grid';
 
-import Flexbox from './components/Flexbox/Flexbox';
+// import Flexbox from './components/Flexbox/Flexbox';
+// import Flexbox from './components/Flexbox_Navbar/Flexbox';
+import Flexbox from './components/Flexbox_Layout_Images/Flexbox';
+
 import './App.css';
 
 class App extends Component {
